@@ -12,4 +12,15 @@ Learning about the chromedriver.exe
 
 ## 3. Copying the installation path of ChromeDriver to the System Environment Variables  
 ### *Note:*  
-  Add the `C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe` to the System Path
+  Add the `C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe` to the System Path  
+
+## 4. Simple test with `Selenium` in Pycharm
+
+```Python
+from selenium import webdriver
+
+browser = webdriver.Chrome()
+browser.get('http://www.baidu.com/') //Python
+```
+## 5. Jump to `Selenium` Part
+* [Selenium with Python](http://selenium-python.readthedocs.io/index.html)
